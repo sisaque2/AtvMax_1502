@@ -1,0 +1,9 @@
+RN01 - (Intervalo de sessões): O agendamento de duas sessões consecutivas na mesma sala deve respeitar o intervalo para proximo filme
+
+RN02 - (Capacidade máxima): Os ingressos de uma sessão nunca podem ultrapassar a capacidade máxima da sala
+
+RN03 - (Status de exibição): Uma sessão só pode ser agendada para um filme que esteja no cartaz na unidade do cinema
+
+RN04 - (Validação de público): O registro diário de pessoas de uma sessão deve ser um valor numérico inteiro
+
+RN05 - (Vínculo obrigatório): Toda sessão criada no sistema deve estar vinculada a um único filme e a uma unidade de cinema específica

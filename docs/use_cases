@@ -1,0 +1,19 @@
+UC01:
+@startuml
+left to right direction
+
+actor Espectador
+actor "Funcionário/Administrador" as Funcionario
+
+rectangle "Sistema Rede de Cinemas" {
+  
+  Espectador -- (Consultar Filmes e Sessões)
+  
+  Funcionario -- (Consultar Filmes e Sessões)
+  Funcionario -- (Gerenciar Cadastro de Filmes)
+  Funcionario -- (Gerenciar Sessões)
+  Funcionario -- (Registrar e Consultar Público)
+
+}
+@enduml
+
